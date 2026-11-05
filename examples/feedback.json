@@ -1,0 +1,4 @@
+{
+  "content": "Create exactly 3 slides introducing feedback control to beginning engineering students. Slide 1: introduce the goal, measurement, and correction in a thermostat. Slide 2: explain the closed loop from desired temperature through error and heating action to measured temperature. Slide 3: show how delay and noisy measurements affect control, with a practical takeaway.",
+  "style": "Clean editorial technical illustration, soft ivory background, teal and warm orange accents, clear visual metaphors, generous negative space. Generated artwork contains no readable text; all educational text is editable in PowerPoint."
+}

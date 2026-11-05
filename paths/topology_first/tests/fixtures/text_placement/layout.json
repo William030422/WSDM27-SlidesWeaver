@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "slide_id": "slide_004",
+  "canvas": {
+    "width": 1536,
+    "height": 864
+  },
+  "rules": {
+    "max_header_content_gap_ratio": 0.08,
+    "outer_margin_ratio": 0.03,
+    "gap_behavior": "reduce_only_when_above_limit"
+  },
+  "header_node_id": "g_header",
+  "header_region_ids": [
+    "text_001",
+    "title_001"
+  ],
+  "main_region_ids": [
+    "caption_001",
+    "caption_002",
+    "caption_003",
+    "visual_001",
+    "visual_002",
+    "visual_003"
+  ],
+  "measurements": {
+    "outer_bbox_before_px": [
+      96,
+      96,
+      1344,
+      672
+    ],
+    "outer_bbox_after_px": [
+      46,
+      26,
+      1444,
+      812
+    ],
+    "target_outer_bbox_px": [
+      46,
+      26,
+      1444,
+      812
+    ],
+    "max_header_content_gap_px": 69,
+    "header_content_gap_after_outer_resize_px": 174,
+    "header_content_gap_final_px": 69,
+    "gap_adjusted": true
+  },
+  "entities": [
+    {
+      "region_id": "caption_001",
+      "input_calibrated_bbox_px": [
+        96,
+        696,
+        384,
+        72
+      ],
+      "postprocessed_bbox_px": [
+        46,
+        728,
+        413,
+        110
+      ]
+    },
+    {
+      "region_id": "caption_002",
+      "input_calibrated_bbox_px": [
+        576,
+        696,
+        384,
+        72
+      ],
+      "postprocessed_bbox_px": [
+        562,
+        728,
+        412,
+        110
+      ]
+    },
+    {
+      "region_id": "caption_003",
+      "input_calibrated_bbox_px": [
+        1056,
+        696,
+        384,
+        72
+      ],
+      "postprocessed_bbox_px": [
+        1077,
+        728,
+        413,
+        110
+      ]
+    },
+    {
+      "region_id": "text_001",
+      "input_calibrated_bbox_px": [
+        120,
+        192,
+        1080,
+        96
+      ],
+      "postprocessed_bbox_px": [
+        72,
+        142,
+        1160,
+        116
+      ]
+    },
+    {
+      "region_id": "title_001",
+      "input_calibrated_bbox_px": [
+        120,
+        96,
+        1272,
+        72
+      ],
+      "postprocessed_bbox_px": [
+        72,
+        26,
+        1366,
+        87
+      ]
+    },
+    {
+      "region_id": "visual_001",
+      "input_calibrated_bbox_px": [
+        144,
+        432,
+        288,
+        240
+      ],
+      "postprocessed_bbox_px": [
+        98,
+        327,
+        309,
+        365
+      ]
+    },
+    {
+      "region_id": "visual_002",
+      "input_calibrated_bbox_px": [
+        624,
+        432,
+        288,
+        240
+      ],
+      "postprocessed_bbox_px": [
+        613,
+        327,
+        310,
+        365
+      ]
+    },
+    {
+      "region_id": "visual_003",
+      "input_calibrated_bbox_px": [
+        1104,
+        432,
+        288,
+        240
+      ],
+      "postprocessed_bbox_px": [
+        1129,
+        327,
+        309,
+        365
+      ]
+    }
+  ]
+}

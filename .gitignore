@@ -1,0 +1,10 @@
+.env
+.env.*
+configs/local.conf
+configs/*local*.conf
+node_modules
+outputs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/

@@ -1,0 +1,59 @@
+{
+  "description": "Reference checksums and API syntax contracts for regression tests.",
+  "files": {
+    "src/v9_deck_planning/json_utils.py": {
+      "source": "demo-v9-step-by-step-improvement/src/v9_deck_planning/json_utils.py",
+      "sha256": "ec13bbaf53487a7dc90fcf017176ec0fd1b8198cd71b50f7fcacde3b164bf173"
+    },
+    "src/v9_deck_planning/style_models.py": {
+      "source": "demo-v9-step-by-step-improvement/src/v9_deck_planning/style_models.py",
+      "sha256": "5b5f05a741dc0c7ddb469e284fa85900275665e5b674bf4e90a0281041369a76"
+    },
+    "src/v9_deck_planning/style_rendering.py": {
+      "source": "demo-v9-step-by-step-improvement/src/v9_deck_planning/style_rendering.py",
+      "sha256": "e1744c165373573a9b8e6668e517bc8e0ebff6e773c7d0fd53fbc4f3abdb70c7"
+    },
+    "reused/diffusion/generate_slides.py": {
+      "source": "function_tests/z_image_turbo_ppt_skeleton/model_based_rl_6_slides_static_template_5_steps/generate_slides.py",
+      "sha256": "01b4638f110c285994a93619e5f4fe56ec8ee6053c6aad3d2656393a99c171f0",
+      "inference_ast_sha256": "c5df83f5e0e05d6da07b6e2e47424f176c68673bcf27bce4e90b343e90adba6e"
+    },
+    "reused/topology/render_topology_planning_deck.py": {
+      "source": "function_tests/z_image_turbo_ppt_skeleton/model_based_rl_6_slides_static_template_5_steps/render_topology_planning_deck.py",
+      "sha256": "c40b63f11215a31e0fe331572a1f759f3722ac21ea0645b20ac5cec9bcf42567"
+    },
+    "reused/final_background/run_matrix.py": {
+      "source": "function_tests/z_image_turbo_ppt_skeleton/model_based_rl_6_slides_static_template_5_steps/gpt_5_6_terra_layout_identity_v3/visual_generation_soft_boundary_matrix/run_matrix.py",
+      "sha256": "ebefb2a774e1022e214a5da7bcaf7c5d51a3491747e601520a2c421f4c030343"
+    }
+  },
+  "apimart": {
+    "source": "demo-v9-step-by-step-improvement/src/v9_deck_planning/apimart.py",
+    "classes": [
+      "ApiMartClient"
+    ],
+    "methods": {
+      "__init__": "5f0a18e1b51cf5460278456dc123895eadcc2e7a14b3e7c918324fa007435329",
+      "chat_json": "8076223f953128122f330b42322ca183cb0bbba4b5a2718a137447a289c21972",
+      "vlm_json": "2899e23ddae8ef2789562a6bdc65d65ab1eaafe738cac6a59c44ea38014a2699",
+      "submit_image_task": "d2595a250280f773c72c4c293c55c7ea5b17e53d0a23e5445e60ebe995193043",
+      "poll_task": "6f5475485c4f5bd04ad8150a918a609943f7fd9b8cc16bfa0197c265e3aad7c0",
+      "download": "a82884bf6238320959e234288ae791c22fca892cda0f8b6577ac5cf5b1911a55",
+      "_post_json": "f3a0788b06b8c7b8888fbe47dcc5bc79393e87a41251b47982d4b099eb0274da",
+      "_get_json": "d37adee4e2428805dbe4149b5785a9363dbf074dd95afd1641f2d7749844a1cd",
+      "_request_json": "2bc52dd06dc9f8523ce3cd9b1ed19642fcc02e8c5391c9d909055523948fc76f",
+      "_api_key": "374664cc90e0379e159acba09217eb85bca671d0be1a8b2d85978cfb8010ccc5"
+    },
+    "functions": {
+      "load_env_file": "928250e6544b3fba9a3e588517c86946a36ec98843a9c34677005c288cbadf19",
+      "image_to_data_uri": "cc5671a8bf837a7764cbaa90e278d21afa52de9db9b9bdb2e514df169d06a10c",
+      "redacted_image_payload": "cc9e4bcc10559896d40c81fd55a37e9171f524da2173d63d3d9c512b52591200",
+      "extract_image_url": "54d993c91869b5028a76a34dbc8fe563b88bedd63366bcef47978d4953c7455d",
+      "_unwrap": "29c24e999fa15aa9ee660f12cbd43ecbfb91f19de61d7245ea4494967d5e959f",
+      "_extract_task_id": "203866e29f2458cacc6765e945a2f0e8d3e11f659d343d7f67582b249b2d5dec",
+      "_extract_usage": "ddae416b45e84b2379ddddc398f24c7e549471a52c2454743a270ecc63058da1",
+      "_extract_text_response": "ab67981939bc95af40cd62b8d1d9e4adc1f8c81487278aacfc90340bbaadad0a"
+    },
+    "python_ast_version": "3.11"
+  }
+}

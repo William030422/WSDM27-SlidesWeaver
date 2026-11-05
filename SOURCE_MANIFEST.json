@@ -1,0 +1,1033 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "files": 205
+  },
+  "files": [
+    {
+      "path": "paths/text_first/README.md",
+      "sha256": "563cbf53655e6d5061ad53a3c5fd2d54970af8aa83c51639a350ee5a4832df7c",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/SOURCE_MAP.md",
+      "sha256": "4273bd078a12a839f94dfa53032324a201beb4644e42d9007540bb2d00d68e68",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/compile_deck.mjs",
+      "sha256": "28999b8027b77183bd5385995cea74048fec2db242e9266fb2bbe6a67efbe16b",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/environment.yml",
+      "sha256": "6295668652ea2f9efc1f98fe74df70b6f19a4bac875bd373081042ce852c2c82",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/integration/__init__.py",
+      "sha256": "dd9c9dab36fbb38933df4a42a2660905b0b7a41aec690bd63c34b0a999d94f2c",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/config.py",
+      "sha256": "8cfa0d4224cb8b338a2e5337ec880f7fe4c8b9097918755d88ee1ac1eeea5068",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/contrast.py",
+      "sha256": "7768974cf75ed76832df82fb063aefc8a3c2b06afcf7af7292fb3fc53c53e2dd",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/decorative_surface.py",
+      "sha256": "9a8ec54daf2cfcdfca573d7269856c4001755b7fb588534988016f2d5af4bc7d",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/diffusion.py",
+      "sha256": "5688057cf683fcaf2d6abf9c72a09dab9da84119876cd7c8c4fec64f52f53ff5",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/expression_logic.py",
+      "sha256": "ebbdd1e1ec59c64237771965f49d24b7536d74646fe91cc0c49937612f24ddea",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/final_background.py",
+      "sha256": "adda0eeb229424fae53364edf7d2d854c71cbd2e420ff80ce6be177398f8f7af",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/gpu_runtime.py",
+      "sha256": "0fb38112751bcbe0fc8adb970fe6b0a22619976df11e271ddd8e65d756e46dfa",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/holder_safe_rect.py",
+      "sha256": "64ae85194af45ba904dc1f46154638ce02ea6cfede5a12cefc79ccedf1312de4",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/html_compile.py",
+      "sha256": "55b011e756332e3326b09fca95ba5103805b26a0d93334853edd15a1ed826e46",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/html_planning.py",
+      "sha256": "bc9bce91eae37351a2f01712a055b9734a384ec919010bc39003acbd2f943f31",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/html_text_rework.py",
+      "sha256": "a0c1d06a9b7f8dcc7eb71dd131f156cea4f4d581b8d4c37f1e6ff61e5041c724",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/page_pipeline.py",
+      "sha256": "73e15beb6d763af3e109ddef719fcb459f2f179faa3783e1868c122e11643fd1",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/page_runtime.py",
+      "sha256": "cc544d16ace2633d7180c957abd705f914ed222a8686c431e1d92d4273bd8a2d",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/render_quality.py",
+      "sha256": "3a80b4ddc85207ec1568ef7de91dc3aa2da78450b3556a4ad488821cf28238b2",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/shared_checkpoint.py",
+      "sha256": "f8dfd3044bab2e293e9c5afede962432fcb6ded627de61f1b92119a9f0edc143",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/text_assembly.py",
+      "sha256": "08aafe94a9b7fac2ba597dabe90a8759d79ad04a2d420e93f8aa9c6c862359c3",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/integration/text_generation.py",
+      "sha256": "f00b79f2a8c9cadba66f78964248b1beabd0b7d8fd127ca57f1839d69a105f90",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/measure_text.mjs",
+      "sha256": "a6d34e274e79ac2addd5c8c9ff0857978125cb2d9026212e22115532ee77216f",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/package-lock.json",
+      "sha256": "c3ce148e3053fcbb9f53fbadca237c4795338e596ff57fe0d39a9ac67d6aa4a9",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/package.json",
+      "sha256": "19a74a2a2b62a60bb00235e51cbcbb8e7caaf9a942db631f2df9d60e8eb98ab3",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/compile_deck.mjs",
+      "sha256": "5ff5763fbdc609924172ce36da53011db51780a213fb847b86c8d94fbb64a566",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/code.js",
+      "sha256": "c80e641cbb1d16d1ca15bd9b1a5a595597825cd435cb4024cc95617a82109f0f",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/image.js",
+      "sha256": "b9034d39cc330b2e4d963b36c521a99b9fee56b6f79b81d342906d7e061e70d6",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/index.js",
+      "sha256": "4416b22333646a1a0e0c4d63e34ca92c853323b410a9489250ffbcf4ccab7184",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/latex.js",
+      "sha256": "abc4a111bf3fe0248a67d307a57e532c9a72591f71922ec198a1b6b14db47700",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/layout.js",
+      "sha256": "774076d2671697c56c9df7d968c7f46be337dd7d63508d75e0f6976237a5db96",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/layout_builders.js",
+      "sha256": "e66d671e7edac49ded358d26f7929718019be72e031a090d957a31b4945ebbc3",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/svg.js",
+      "sha256": "911725defa53b54123d61f457707a163f8e41ffc06e9148c13f12ba8a0834ba7",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/text.js",
+      "sha256": "1c6055855cc4003ceaeb0b79f30d81b28883bc894a2446f079b7e7f8e97973c5",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/pptx_compiler/pptxgenjs_helpers/util.js",
+      "sha256": "49554b6376f5bad986283fb78a4ecc55b33f17826348689bb7d0f13eb4e24dc2",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/requirements.txt",
+      "sha256": "08c901d3dabd42db21bd31dda49a37e7809bd15a9267316aef001183ef402419",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/reused/diffusion/build_prompts.py",
+      "sha256": "31e9695fbac3d04b0747faf5544a16c18c20086e5bd88c3921e60409733712ef",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/reused/diffusion/generate_slides.py",
+      "sha256": "01b4638f110c285994a93619e5f4fe56ec8ee6053c6aad3d2656393a99c171f0",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/run_pipeline.py",
+      "sha256": "f35c09933d596aa2aa04b2a58c8c60dc9df706f3b40e613e3fce6021f7e17e77",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/run_text_placement.py",
+      "sha256": "84ca8cc81e9a4c0da5bae5e7be954b2c59b25c897f913ac7ce1140e860b0ac98",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/scripts/check_environment.py",
+      "sha256": "a60dac1c322e2c593a524cf6fa9a24e678812e232a1a199e0b07b022548bae03",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/scripts/conda/activate.d/rl4ppt-final.sh",
+      "sha256": "97e0c8f74de3d4528952e4b26a05a0563169beb6546daf58731bb29f7ac63a3a",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/scripts/conda/deactivate.d/rl4ppt-final.sh",
+      "sha256": "ea5d5b75b68781516e05aa9aa2079f6ad8ba88d91a8b44936b19643857df8d01",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/scripts/prepare_final_background_request.py",
+      "sha256": "17eb6289b05e142c45a745839edc62d820d8af3208a4004d23c920db56678ef2",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/scripts/replay_text_first.py",
+      "sha256": "cbbdee49d08501ef11fd9a8af4f08948938996b14b57e3500cf55ae20f3ccea9",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/scripts/setup_environment.sh",
+      "sha256": "0c42bd76ef4505c5b222201a1cf0a9d61521487d6ac1c93ea42a1185ededfed8",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/scripts/validate_quality_fixes.py",
+      "sha256": "d7cd01ce12af836184c8776c4a166361db327f62ceab7cf5aed6684ef59202c3",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/__init__.py",
+      "sha256": "5f126154b6c57f03a65d22ddf1c604fbe617aa35c65d369fdd8435fa09a7565e",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/apimart.py",
+      "sha256": "0ea948512aa5ff78d4a7166676cd4be1609675656209f546cb07538964bee8cf",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/green_background_removal.py",
+      "sha256": "84f6134f613ea99b8df6d4241f04a96c44aa24fc1ed16515c6e6854bb63ed498",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/image_task_journal.py",
+      "sha256": "7cefb4d939362af6798f46c86e9679359020214a16b4d903eab531da998dc940",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/json_utils.py",
+      "sha256": "60be554fc99b097fc794f853523f34c9663588268f79bd0ca4a604fe241a5407",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/models.py",
+      "sha256": "2fd3142e5f886c5276c3be9c3f2d675c1f32f16fe22275173f753d26b989e482",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/pipeline.py",
+      "sha256": "dce38ea54fb4dc62182866dd684b8d1b0234f3f4974cf82b93aec0ea1a69964e",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/planner.py",
+      "sha256": "52a44aea1ec1f0e8e1844d57b2f789871a7f6334fde3a9e9145797c18206cfde",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/segmented_asset_naming.py",
+      "sha256": "465f9b9deb492019f4240ea080d32636348f3390287e8470f2c455810d0c1c73",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/style_image_backend.py",
+      "sha256": "be30057b71984af7aa9edae18f28c4febbeba6bc317a79c048a5a3f812b965a9",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/src/v9_deck_planning/style_pipeline.py",
+      "sha256": "5f0e9cb0b9ff94a9eb5a0f2ae62d402aea7f3faf942eac97e108dfc818a2cd44",
+      "runtime": true
+    },
+    {
+      "path": "paths/text_first/tests/reference_sources.json",
+      "sha256": "a4f97f666627c52a606b8e339b117831de1c06f76b3ad7471ee84b28780f6153",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_apimart_retry.py",
+      "sha256": "deee800b099bb12c948bfa39dc74baa86416863f2cd393187dcee6bea3dc3348",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_config.py",
+      "sha256": "f39dd673772d471b686848e6821c7dc76f986c3158f353de717e5861627ec7f1",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_decorative_render_quality.py",
+      "sha256": "b6b145228c796c9466e537f1f943ae06293cf629490bda3c711e68d16063bb2a",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_diffusion.py",
+      "sha256": "bff6f872205063664a991ab0585773e34d9df01819f1210370c214d1c533fd0f",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_expression_logic.py",
+      "sha256": "e73920f661f53df7e55b0d4a96bb8fba8813a70ff246c52c8d53d36af965256d",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_holder_reserved_interiors.py",
+      "sha256": "f3c1486b9b304e5c40ef2f967f60c188ad29edc3d9b9f8a1e6dc1180c153f326",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_html_pipeline.py",
+      "sha256": "09c2378aededec116da3f99adfd0be4cee534914682f1d24d83f068ae6541fc8",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_json_retry.py",
+      "sha256": "1c791e9f2eedab3b970d6efb5cca7dd5d815c0cd3fcbc9b0a1b611533828a18f",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_page_pipeline.py",
+      "sha256": "1295f37d35c1d2332e3d11e4333f6749cc1bb00dfb6123c13b4a392baa4a3282",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_page_runtime.py",
+      "sha256": "7cf0f7834e9e50d79c31202c6d37c07d158964ca41511450ef307608278d4404",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_quality_assembly.py",
+      "sha256": "df4aa29b29a96b7614bdcbeb744f85a09d2a998abed99c00e8d67e1ba6c7cfda",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_quality_asset_safety.py",
+      "sha256": "23f67adf5fc55899abb755d9de34337729e056433b7daf8fc7c99b5bcb4a428c",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_quality_html_geometry.py",
+      "sha256": "8047f1768ec644ef1496f5253d092b114d8040fd8c5330df3e32843a0a544a94",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_readability_contract.py",
+      "sha256": "bc36f61ffc34373f97feb7e6245e7e5dccf03e97a50518aee85d6183fe851784",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_reused_sources.py",
+      "sha256": "1f2b37ce336d9084af0cb0ba96a3053ef044759f7363cffb58ff4486963d25c1",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_schema_tolerance.py",
+      "sha256": "847d9d2b983fc285a6951aef9758ea3c4fe546abfd618062302861aec7d17224",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_shared_image_resume.py",
+      "sha256": "8caa283c489d2d29213c17fbfbf58fa2cc3a7d5646e893b92eec9d7f883ae3f5",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_text_assembly.py",
+      "sha256": "265de744d8229ede8fe0ecd305e7c850aa0dc20ccd5542b5b0975c34cc96c348",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_text_generation.py",
+      "sha256": "fd805c2a9b3e35dbcb42a67aaaf5e40c67d61569a43c7765005c246cb8f6b802",
+      "runtime": false
+    },
+    {
+      "path": "paths/text_first/tests/test_visual_background.py",
+      "sha256": "d02b55db38d39a6bb1112e399914682a7367774fe0b65d497cdb3d19ef2379f0",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/README.md",
+      "sha256": "e6789a5f7ae20627501436905318d05e44cfb9929c070c1ff9bb52a46c21a464",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/SOURCE_MAP.md",
+      "sha256": "e6db7a44c2834256fe8ed5414c9e24f3c08797aa068b224b3d0746d5e73e9ab0",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/compile_deck.mjs",
+      "sha256": "e049310abf04eac8038f324210f2b2761ad9d69d898768cda5ba702541b20e91",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/environment.yml",
+      "sha256": "6295668652ea2f9efc1f98fe74df70b6f19a4bac875bd373081042ce852c2c82",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/integration/__init__.py",
+      "sha256": "dd9c9dab36fbb38933df4a42a2660905b0b7a41aec690bd63c34b0a999d94f2c",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/api_journal.py",
+      "sha256": "64baf7bd77c179874d5a196a4c3d385fa72ee2c04b384132a3ef386db54f8568",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/background_decomposition.py",
+      "sha256": "5ce777b1d180fefe7a757088b896ba35c869c86b489315b65222c0e8e7baa62e",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/config.py",
+      "sha256": "db02a8957e975a6718ed6ee6b84a652c19ae2bae92f077d4d8717fdf16622d69",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/decorative_surface.py",
+      "sha256": "9a8ec54daf2cfcdfca573d7269856c4001755b7fb588534988016f2d5af4bc7d",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/diffusion.py",
+      "sha256": "9e098bbbcc77c01c0e90ad2348247445473d4c0622d6d866f4cbc43586e79262",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/final_background.py",
+      "sha256": "8474598f71bdaeb5fcb9e013db73eb51d3c8a93a91e8522528eec4c4fbdf9d16",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/gpu_runtime.py",
+      "sha256": "0fb38112751bcbe0fc8adb970fe6b0a22619976df11e271ddd8e65d756e46dfa",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/page_pipeline.py",
+      "sha256": "4b6e3fd55c0fe087c78181ba69bb70710f1310303a16132cdbf4275a5701171e",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/page_runtime.py",
+      "sha256": "cc544d16ace2633d7180c957abd705f914ed222a8686c431e1d92d4273bd8a2d",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/region_content.py",
+      "sha256": "f4e323798d12d4201d8df657033bafb8234ceb4f60b8cbf12b9a0d07b3369258",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/render_quality.py",
+      "sha256": "3a80b4ddc85207ec1568ef7de91dc3aa2da78450b3556a4ad488821cf28238b2",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/semantic_topology.py",
+      "sha256": "5cb0346dfcd3534e99ce438ca4218e39553b972ae159e5c0c59c7e7d41e41934",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/shared_checkpoint.py",
+      "sha256": "23f3c0ac5a7aa57d3446fd044203d956354efaf7c91852d8a2e7a0dc60f79027",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/slide_spec.py",
+      "sha256": "63e0a540f4a60cc1cecc5dce7a846dc7bceaa5c91ba1be2cd3674f47cac6f694",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/text_assembly.py",
+      "sha256": "e24db0148f3d6bc1273ff5768cdbda632414c881951b46f8f90cfc5e72b4b530",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/integration/topology.py",
+      "sha256": "5dac7866927f98ee7f4a0682c54ef7bc8726144f199c995aa4fe30e75afa7a00",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/measure_text.mjs",
+      "sha256": "4c8fc8535ae91ac8df0bbc767204b31b4ed72131441c260eeec6d32554d02603",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/package-lock.json",
+      "sha256": "c3ce148e3053fcbb9f53fbadca237c4795338e596ff57fe0d39a9ac67d6aa4a9",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/package.json",
+      "sha256": "19a74a2a2b62a60bb00235e51cbcbb8e7caaf9a942db631f2df9d60e8eb98ab3",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/compile_deck.mjs",
+      "sha256": "8a4a164d50e0d17d0cbc3624619cea66889442f82bfc7b195cc03a32cc7653fa",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/physical_font.mjs",
+      "sha256": "e25df1c0f9510feb1a6afcbb3662c35ecae1037f5ef3c81d3c477b4373ac70e1",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/code.js",
+      "sha256": "c80e641cbb1d16d1ca15bd9b1a5a595597825cd435cb4024cc95617a82109f0f",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/image.js",
+      "sha256": "b9034d39cc330b2e4d963b36c521a99b9fee56b6f79b81d342906d7e061e70d6",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/index.js",
+      "sha256": "4416b22333646a1a0e0c4d63e34ca92c853323b410a9489250ffbcf4ccab7184",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/latex.js",
+      "sha256": "abc4a111bf3fe0248a67d307a57e532c9a72591f71922ec198a1b6b14db47700",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/layout.js",
+      "sha256": "774076d2671697c56c9df7d968c7f46be337dd7d63508d75e0f6976237a5db96",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/layout_builders.js",
+      "sha256": "e66d671e7edac49ded358d26f7929718019be72e031a090d957a31b4945ebbc3",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/svg.js",
+      "sha256": "911725defa53b54123d61f457707a163f8e41ffc06e9148c13f12ba8a0834ba7",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/text.js",
+      "sha256": "ba5f0e38929bd9a826397ca597618a23b89561a2c2f097d3289f5364611c7ccf",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/pptx_compiler/pptxgenjs_helpers/util.js",
+      "sha256": "49554b6376f5bad986283fb78a4ecc55b33f17826348689bb7d0f13eb4e24dc2",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/requirements.txt",
+      "sha256": "efb503507b4a903146f2c3facede21ada97a1255763f68b18734a7e5b38d6237",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/reused/diffusion/build_prompts.py",
+      "sha256": "82ac8b2baa9057841eec738b548dc1d040306f6f0690aaccba247cc65e82f178",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/diffusion/generate_slides.py",
+      "sha256": "01b4638f110c285994a93619e5f4fe56ec8ee6053c6aad3d2656393a99c171f0",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/final_background/run_matrix.py",
+      "sha256": "ebefb2a774e1022e214a5da7bcaf7c5d51a3491747e601520a2c421f4c030343",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/text_placement/case_slide_004.json",
+      "sha256": "1bb1c66538d3b3b63774f55da428f6c7376318612354bb6df42c431c502cbb34",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/text_placement/prompts/01_layout.md",
+      "sha256": "dce5c291ca80e46045cc3ed2d4b8ad73a6ddc12827c832a96e4c8a15b65a2b43",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/text_placement/prompts/02_move.md",
+      "sha256": "8e2aa06db8b5c8c3ac7da8db378cce93d4ef3299afbc849ba0c6419e81b8a803",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/text_placement/prompts/03_accept.md",
+      "sha256": "389ee7dbd3ec0b75aa2c61f0341da26e5887de0ae441a9b51136877103978a30",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/text_placement/prompts/04_badge.md",
+      "sha256": "07a324c995a48735f9c4cfaa23ffd31ae9d449fcd1e4162f50d8a3c810d34f46",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/text_placement/prompts/05_content.md",
+      "sha256": "a166d22488befafef843fe081e2603f97c2cf2268488f29d9d960d9fc9a3a4ba",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/text_placement/text_placement.py",
+      "sha256": "38c3156e09414a3b192892aaaccdeab9f31d4783e5fa2792a39dcd6bad611a74",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/topology/extract_calibrated_topology_with_vlm.py",
+      "sha256": "7de00f887c7a112b0fa78ab1f4f22e4d21ef2eb2ce5f4ad383be4fba1e074748",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/topology/extract_layout_identity_geometry_with_vlm.py",
+      "sha256": "08b04cc09bba37b2a8efe435b6f491d2c274dc9eeb332388d6c22960cbec5dc9",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/topology/extract_layout_topology_with_vlm.py",
+      "sha256": "df78713d0ecbb583ca36fe253a1f6ce6f488eec628b67284e571cc6394d48beb",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/topology/postprocess_calibrated_planning_margins.py",
+      "sha256": "0fb62b36ec017b10af39ed157e208efd87bcf462e15674a1621cb460d2440444",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/topology/render_calibrated_topology_planning_deck.py",
+      "sha256": "5ee6c208eac8337a21f0481140874f098166f6fc9e1f128547a2267b9ec3a266",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/reused/topology/render_topology_planning_deck.py",
+      "sha256": "c40b63f11215a31e0fe331572a1f759f3722ac21ea0645b20ac5cec9bcf42567",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/run_combined_background.py",
+      "sha256": "6808af6fa7b34f04661d7ac3b9a2b8279f46f5a51fca278a5249cdfed44ece0b",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/run_content_unit_binding.py",
+      "sha256": "eeb0dfa1c5ae7f63b98da3d08485f7ebdc3a59f1592157da944004bdf08533c6",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/run_pipeline.py",
+      "sha256": "bc27103eec73eacd88608fdb53d1b3fb69c92dd4ecfbe3e5fb3b875e6acf7f39",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/run_text_placement.py",
+      "sha256": "e73e3626996dca5b50627b3fe57cab85abee69188196055db3db1f9dd37ab313",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/scripts/check_environment.py",
+      "sha256": "5dc94646c88caf7527772e69483a6da4835485ba4ec039c6d1ecdee3166f5f10",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/scripts/conda/activate.d/rl4ppt-final.sh",
+      "sha256": "97e0c8f74de3d4528952e4b26a05a0563169beb6546daf58731bb29f7ac63a3a",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/scripts/conda/deactivate.d/rl4ppt-final.sh",
+      "sha256": "ea5d5b75b68781516e05aa9aa2079f6ad8ba88d91a8b44936b19643857df8d01",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/scripts/setup_environment.sh",
+      "sha256": "9d0bbfbf3553775ca1765499def310a16727ed6901a6ba0707707c950c46f383",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/scripts/verify_quality_repairs.py",
+      "sha256": "0ba0d48caeebda499e78f9f2d29ed5e94200ad1ed45540461212ea66fc43ec7a",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/__init__.py",
+      "sha256": "5f126154b6c57f03a65d22ddf1c604fbe617aa35c65d369fdd8435fa09a7565e",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/apimart.py",
+      "sha256": "cf53c08726a134563b0c2ec737b0180df071272de8aba1921502a5386c15ffbb",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/green_background_removal.py",
+      "sha256": "3b8ce109415ec6258e03b9276f0565422da9f4c315bdcb165382ca3e67445d76",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/image_task_journal.py",
+      "sha256": "7cefb4d939362af6798f46c86e9679359020214a16b4d903eab531da998dc940",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/json_utils.py",
+      "sha256": "ec13bbaf53487a7dc90fcf017176ec0fd1b8198cd71b50f7fcacde3b164bf173",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/models.py",
+      "sha256": "2fd3142e5f886c5276c3be9c3f2d675c1f32f16fe22275173f753d26b989e482",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/pipeline.py",
+      "sha256": "b013a7785c54e93caeb1687151f11e7d9ae2b2dc5efdfb83a9f2070fc2fdadb7",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/planner.py",
+      "sha256": "52a44aea1ec1f0e8e1844d57b2f789871a7f6334fde3a9e9145797c18206cfde",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/segmented_asset_naming.py",
+      "sha256": "465f9b9deb492019f4240ea080d32636348f3390287e8470f2c455810d0c1c73",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/style_assets.py",
+      "sha256": "ca9a62b55127f7fb667f299ce378d9680ffe73748bdf06019d7944abcd425231",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/style_image_backend.py",
+      "sha256": "b61d8aa69323d76c4b7e9ada7958b214adc1732c1ca5417bc1dc780c96331545",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/style_models.py",
+      "sha256": "5b5f05a741dc0c7ddb469e284fa85900275665e5b674bf4e90a0281041369a76",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/style_pipeline.py",
+      "sha256": "ea8ed6f1c3d8c4790d2aae7be49ebdce978c75d1ef8fc364122aa4fdad6142ee",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/style_reference.py",
+      "sha256": "77c98cb2fd4981afcc6a68d03d7dc162dbe714b388e077604653fe07a69e21aa",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/src/v9_deck_planning/style_rendering.py",
+      "sha256": "e1744c165373573a9b8e6668e517bc8e0ebff6e773c7d0fd53fbc4f3abdb70c7",
+      "runtime": true
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/asset_manifest.json",
+      "sha256": "19b9b185f953e06eeca0bd3c5c0a8b3b962382173e29585ecc09af653e0ed3e8",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/badge_category.png",
+      "sha256": "816262777c89954f814bcfa0a0048f2a7226860eafb9828c208d4ba653d7249b",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/badge_emphasis.png",
+      "sha256": "a6bfe43ff8055798b6bb5883cbe385dc03b398b5f5fa31b30a172cea95deb1c7",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/badge_evidence.png",
+      "sha256": "6b1db135e186f2d24ff923802d51a0ba4eea9bc86871638ae895423eced49442",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/badge_milestone.png",
+      "sha256": "50c9f2b11edafa0169bdb582dad310276b56e314dcb0fb17974044ddd7b1d88e",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/badge_takeaway.png",
+      "sha256": "3ffba970228761fbc0da14f5822b80c13d9a68441f7f67eba8017ea24a7a6e97",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/badge_warning.png",
+      "sha256": "20bc75483f29d464707129e893d936fd0f1e92ba55e929a2620bdd11643832b3",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/holder_callout.png",
+      "sha256": "ac796186d6a11c67275697d85a45f33e5ead89f89cb9db2d47d7b403263b8c3b",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/holder_circle.png",
+      "sha256": "78dac2922eda44422ea75fd37df4a217754f6dff783b2de44263c19c4bd92204",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/holder_compact.png",
+      "sha256": "f4142fa933a8821ea372008398920d2f7ba756acb5ac7f21833bc3a00cfae359",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/holder_pill.png",
+      "sha256": "bf437c419cccefb56b72ed8c90bfc2e48dd09a43bbf7b3e3cdbc64d31611a7f7",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/holder_speech.png",
+      "sha256": "e162b30636dd02cc0e5e41a34e5034b036f3d2af4ff9472c4dab6d3a70fd328e",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/holder_wide.png",
+      "sha256": "4c22d37255cbb5883a4cfe6499f26a9624890200eef50b69dc00bb7268fe92c8",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_concept.png",
+      "sha256": "2368d3f12adbde43eb695ad08694045f4809ce2727c060d4e2c93dcd56af879c",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_environment.png",
+      "sha256": "db2e9d2ab87115f8e8cff9a857bacc345cd4e460cfea82ba3651ad086397d883",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_evidence.png",
+      "sha256": "d105ca8a3f1b4df94176512d233e009d6bdab7b19fb3a789b03f839d6e715271",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_model.png",
+      "sha256": "05cc30844903ea72946c32373c97b25291904b319af7def8cb330546efc3cd51",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_planning.png",
+      "sha256": "195f33c35cc9cb7963270022ee86db35bc8a35e961a7c77cf5ae36683ffc220f",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_process.png",
+      "sha256": "c02c247dd73a9dd7ba0844999a0315bc3aea813e38eae9e36d3f776322afbe66",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_relationship.png",
+      "sha256": "adc11969131cfed8c721e7446baa25db0b8a4ce299a4aa993199133cb3c01e4b",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_takeaway.png",
+      "sha256": "51b82178e8eea7b5b886c325a78787ea1d59366c84f28c3389aab492a8acad95",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/icon_warning.png",
+      "sha256": "c6e892e431947e91bb0bb2bb419c444c203773a96cd21dad894ca6ed0014df6d",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/identity_primary.png",
+      "sha256": "3d4d1af71b4cebb46bde22e707977bd709d875c27357bbd2be258747fd3bf707",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/identity_variant_02.png",
+      "sha256": "6b2e4719dc1ec2077d445939dd7dc930c23b2d1bdb8c33759c0e010c9d4e7ad5",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/identity_variant_03.png",
+      "sha256": "cad4585940545adc628c1bf7040e3908c83a0a7ac7dcf8858e809130744a9fa9",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/subtitle_bar_primary.png",
+      "sha256": "b69e79b8693baf6c555756d0b14f5455296445883d5fd4280de449a5d4cd581b",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/assets/title_bar_primary.png",
+      "sha256": "87a9fa9d2d812c496c6b4cb3ec8b2ed17065893ebf10f9d3d06d227de8eae209",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/background.png",
+      "sha256": "140d351db4ea20222e2e6a4cfc368c08faa1084e8c9f901a3208bf16da71b2fe",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/case_slide_004.json",
+      "sha256": "091213410ad1ad403b962d3260c407a623ea21b39933e1df4bf5610805263ca5",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/layout.json",
+      "sha256": "42f7d972d43c1c01f00322cdd90df45cb626906b633e35dbe31cbcfbffd05d21",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/fixtures/text_placement/topology.json",
+      "sha256": "fb9e55b939a30c6c07202f209a66e0e8522876564df857022bfacd103548eabc",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/reference_sources.json",
+      "sha256": "74c15856d0d78a284157806c6504d8667b7c591c210b6b194fc1a83ddb45fa44",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_background_decomposition.py",
+      "sha256": "fe34e3b4f53de0b7af7f1a112edce0f76c10696567e9d0297b9c09316aa31b16",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_config.py",
+      "sha256": "d85b8618e21e34e984d152f1b936a0cb2aef2f1e155912063e38e8ec8be8198d",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_generation_units_and_group_policies.py",
+      "sha256": "b3c29157033ab42a6af1ceeb299cb03969655b5eb95e13c35a03eddb2f51f2bd",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_page_pipeline.py",
+      "sha256": "77ef7c5e84f1271459ac7e6972dc30e165e9576f10f081fbef1a4baac0eb8559",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_page_runtime.py",
+      "sha256": "7cf0f7834e9e50d79c31202c6d37c07d158964ca41511450ef307608278d4404",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_quality_topology.py",
+      "sha256": "9b05911140e1864198feed9f05890b7d3d85b8139bdc6f6d697338aa33100eea",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_region_content_backgrounds.py",
+      "sha256": "5369683754097b240c477912c2a102441cba8fd3c5e105f06be3d43195c5ca95",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_rendering_repairs.py",
+      "sha256": "2d632b1f829487f54d95d78582820937fee1f00d73fec4b4b022335534a7f2fa",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_reused_sources.py",
+      "sha256": "2964a98d67419f26ce429291925cf95e7415823a9524317aff2e9418f393fb5b",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_schema_tolerance.py",
+      "sha256": "774a927a17967cbb9160ce4c879064cd7db53974eb3c117fa5fd508143d09faa",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_semantic_delivery_repairs.py",
+      "sha256": "f287314ff12a1e3400ee05d8c275cdabdc862b4c4c01907aa04afec9167bd0b3",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_semantic_topology_regularization.py",
+      "sha256": "e67a1c63ce4dc9b0a3a343bc900f01a049d598064093a4b0a9d1d975ebee8b40",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_shared_image_resume.py",
+      "sha256": "8caa283c489d2d29213c17fbfbf58fa2cc3a7d5646e893b92eec9d7f883ae3f5",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_slide_spec_diffusion.py",
+      "sha256": "e1355c8b0fa951346c9bd69526b877bd8af0517c737cc9a25b1066f27afb3d0a",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_step2_asset_postprocessing.py",
+      "sha256": "09b32e36146c6299193025ea6dbf1a8bc17c24e248fe3671ef98867b263305d4",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_step2_background_first.py",
+      "sha256": "29c585b886d59c79f831585cb51c0a6d6d147713fb9223f1594efc91a2825b27",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_text_placement_reuse.py",
+      "sha256": "dc07dde396bd65ede252dc207006a2f0604e4b558e0dbf79769aaec0b6461baf",
+      "runtime": false
+    },
+    {
+      "path": "paths/topology_first/tests/test_topology_normalization.py",
+      "sha256": "82a157c34bf0805e644521340b5f0e9f6ef9b1e88adbfa6ae9b40299bace4a95",
+      "runtime": false
+    }
+  ]
+}

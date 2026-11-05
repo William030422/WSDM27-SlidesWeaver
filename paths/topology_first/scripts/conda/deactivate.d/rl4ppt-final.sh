@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+if [[ -n "${RL4PPT_FINAL_PATH_BEFORE_ACTIVATE:-}" ]]; then
+  export PATH="$RL4PPT_FINAL_PATH_BEFORE_ACTIVATE"
+  unset RL4PPT_FINAL_PATH_BEFORE_ACTIVATE
+fi

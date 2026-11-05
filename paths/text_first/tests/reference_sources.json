@@ -1,0 +1,7 @@
+{
+  "reused/diffusion/generate_slides.py": {
+    "source": "function_tests/z_image_turbo_ppt_skeleton/model_based_rl_6_slides_static_template_5_steps/generate_slides.py",
+    "sha256": "01b4638f110c285994a93619e5f4fe56ec8ee6053c6aad3d2656393a99c171f0",
+    "inference_ast_sha256": "c5df83f5e0e05d6da07b6e2e47424f176c68673bcf27bce4e90b343e90adba6e"
+  }
+}

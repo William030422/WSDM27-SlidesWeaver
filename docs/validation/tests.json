@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "suites": [
+    {
+      "path": "text-first",
+      "exit_code": 0,
+      "tests": 165,
+      "log": "outputs/validation/tests/text-first.log"
+    },
+    {
+      "path": "topology-first",
+      "exit_code": 0,
+      "tests": 125,
+      "log": "outputs/validation/tests/topology-first.log"
+    }
+  ],
+  "tests": 290,
+  "configuration": "public offline fixtures; no private configuration loaded"
+}

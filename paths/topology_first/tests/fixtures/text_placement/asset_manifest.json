@@ -1,0 +1,936 @@
+{
+  "schema_version": "1.1",
+  "stage": "style_asset_manifest",
+  "canvas": {
+    "width": 1536,
+    "height": 864
+  },
+  "assets": [
+    {
+      "asset_id": "title_bar_primary",
+      "category": "title_bar",
+      "shape": "bar",
+      "path": "assets/title_bar_primary.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "title",
+        "section"
+      ],
+      "allowed_roles": [
+        "title_background",
+        "section_marker"
+      ],
+      "aspect_ratio": 7.3,
+      "native_pixel_size": [
+        1022,
+        140
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 16,
+        "max_width": 58,
+        "min_height": 3,
+        "max_height": 8
+      },
+      "matching_distance": 0.015528,
+      "source_fragment_ids": [
+        "asset_003"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.031311,
+        "y": 0.142857,
+        "width": 0.935421,
+        "height": 0.764286
+      }
+    },
+    {
+      "asset_id": "subtitle_bar_primary",
+      "category": "subtitle_bar",
+      "shape": "bar",
+      "path": "assets/subtitle_bar_primary.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "subtitle",
+        "section"
+      ],
+      "allowed_roles": [
+        "subtitle_background",
+        "section_marker"
+      ],
+      "aspect_ratio": 9.5222,
+      "native_pixel_size": [
+        857,
+        90
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 12,
+        "max_width": 40,
+        "min_height": 3,
+        "max_height": 6
+      },
+      "matching_distance": 0.016637,
+      "source_fragment_ids": [
+        "asset_005"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.024504,
+        "y": 0.133333,
+        "width": 0.953326,
+        "height": 0.711111
+      }
+    },
+    {
+      "asset_id": "holder_wide",
+      "category": "raster_holder",
+      "shape": "rounded_rect",
+      "path": "assets/holder_wide.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "explanation",
+        "comparison"
+      ],
+      "allowed_roles": [
+        "short_explanation",
+        "comparison"
+      ],
+      "aspect_ratio": 2.9529,
+      "native_pixel_size": [
+        502,
+        170
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 10,
+        "max_width": 26,
+        "min_height": 4,
+        "max_height": 12
+      },
+      "matching_distance": 0.017696,
+      "source_fragment_ids": [
+        "asset_011"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.061753,
+        "y": 0.076471,
+        "width": 0.874502,
+        "height": 0.841176
+      }
+    },
+    {
+      "asset_id": "holder_compact",
+      "category": "raster_holder",
+      "shape": "rounded_rect",
+      "path": "assets/holder_compact.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "fact",
+        "definition"
+      ],
+      "allowed_roles": [
+        "short_explanation",
+        "definition"
+      ],
+      "aspect_ratio": 1.6316,
+      "native_pixel_size": [
+        279,
+        171
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 6,
+        "max_width": 16,
+        "min_height": 4,
+        "max_height": 12
+      },
+      "matching_distance": 0.023743,
+      "source_fragment_ids": [
+        "asset_010"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.114695,
+        "y": 0.076023,
+        "width": 0.770609,
+        "height": 0.836257
+      }
+    },
+    {
+      "asset_id": "holder_circle",
+      "category": "raster_holder",
+      "shape": "circle",
+      "path": "assets/holder_circle.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "keyword",
+        "focus"
+      ],
+      "allowed_roles": [
+        "focal_annotation",
+        "emphasis"
+      ],
+      "aspect_ratio": 1.0049,
+      "native_pixel_size": [
+        204,
+        203
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 4,
+        "max_width": 10,
+        "min_height": 4,
+        "max_height": 10
+      },
+      "matching_distance": 0.016517,
+      "source_fragment_ids": [
+        "asset_009"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.205882,
+        "y": 0.20197,
+        "width": 0.593137,
+        "height": 0.596059
+      }
+    },
+    {
+      "asset_id": "holder_speech",
+      "category": "raster_holder",
+      "shape": "speech_bubble",
+      "path": "assets/holder_speech.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "dialogue",
+        "friendly"
+      ],
+      "allowed_roles": [
+        "annotation",
+        "short_explanation",
+        "dialogue"
+      ],
+      "aspect_ratio": 1.9349,
+      "native_pixel_size": [
+        327,
+        169
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 8,
+        "max_width": 20,
+        "min_height": 4,
+        "max_height": 10
+      },
+      "matching_distance": 0.021141,
+      "source_fragment_ids": [
+        "asset_016"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.107034,
+        "y": 0.088757,
+        "width": 0.785933,
+        "height": 0.573964
+      }
+    },
+    {
+      "asset_id": "holder_callout",
+      "category": "raster_holder",
+      "shape": "callout",
+      "path": "assets/holder_callout.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "annotation",
+        "pointer"
+      ],
+      "allowed_roles": [
+        "annotation",
+        "short_explanation"
+      ],
+      "aspect_ratio": 1.8176,
+      "native_pixel_size": [
+        309,
+        170
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 8,
+        "max_width": 20,
+        "min_height": 4,
+        "max_height": 10
+      },
+      "matching_distance": 0.023727,
+      "source_fragment_ids": [
+        "asset_015"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.10356,
+        "y": 0.076471,
+        "width": 0.79288,
+        "height": 0.582353
+      }
+    },
+    {
+      "asset_id": "holder_pill",
+      "category": "raster_holder",
+      "shape": "pill",
+      "path": "assets/holder_pill.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "takeaway",
+        "stage"
+      ],
+      "allowed_roles": [
+        "takeaway",
+        "stage_label"
+      ],
+      "aspect_ratio": 3.2427,
+      "native_pixel_size": [
+        334,
+        103
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 8,
+        "max_width": 24,
+        "min_height": 3,
+        "max_height": 7
+      },
+      "matching_distance": 0.027863,
+      "source_fragment_ids": [
+        "asset_018"
+      ],
+      "editable_text_available": true,
+      "text_safe_rect_status": "detected",
+      "text_safe_rect": {
+        "x": 0.110778,
+        "y": 0.106796,
+        "width": 0.775449,
+        "height": 0.786408
+      }
+    },
+    {
+      "asset_id": "identity_primary",
+      "category": "identity_asset",
+      "shape": "freeform",
+      "path": "assets/identity_primary.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "identity",
+        "character",
+        "thematic_object"
+      ],
+      "allowed_roles": [
+        "agent_identity",
+        "identity"
+      ],
+      "aspect_ratio": 1.3024,
+      "native_pixel_size": [
+        323,
+        248
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 6,
+        "max_width": 18,
+        "min_height": 6,
+        "max_height": 16
+      },
+      "matching_distance": 0.04197,
+      "source_fragment_ids": [
+        "asset_021"
+      ]
+    },
+    {
+      "asset_id": "identity_variant_02",
+      "category": "identity_asset",
+      "shape": "freeform",
+      "path": "assets/identity_variant_02.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "identity",
+        "character",
+        "thematic_object"
+      ],
+      "allowed_roles": [
+        "agent_identity",
+        "identity"
+      ],
+      "aspect_ratio": 1.2652,
+      "native_pixel_size": [
+        291,
+        230
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 6,
+        "max_width": 18,
+        "min_height": 6,
+        "max_height": 16
+      },
+      "matching_distance": 0.033511,
+      "source_fragment_ids": [
+        "asset_022"
+      ]
+    },
+    {
+      "asset_id": "identity_variant_03",
+      "category": "identity_asset",
+      "shape": "freeform",
+      "path": "assets/identity_variant_03.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "identity",
+        "character",
+        "thematic_object"
+      ],
+      "allowed_roles": [
+        "agent_identity",
+        "identity"
+      ],
+      "aspect_ratio": 1.883,
+      "native_pixel_size": [
+        354,
+        188
+      ],
+      "visual_weight": "medium",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 6,
+        "max_width": 18,
+        "min_height": 6,
+        "max_height": 16
+      },
+      "matching_distance": 0.016388,
+      "source_fragment_ids": [
+        "asset_026"
+      ]
+    },
+    {
+      "asset_id": "badge_emphasis",
+      "category": "badge",
+      "shape": "freeform",
+      "path": "assets/badge_emphasis.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "important",
+        "emphasis"
+      ],
+      "allowed_roles": [
+        "emphasis",
+        "section_marker"
+      ],
+      "aspect_ratio": 0.9929,
+      "native_pixel_size": [
+        140,
+        141
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 3,
+        "max_width": 6,
+        "min_height": 3,
+        "max_height": 6
+      },
+      "matching_distance": 0.01283,
+      "source_fragment_ids": [
+        "asset_002"
+      ]
+    },
+    {
+      "asset_id": "badge_evidence",
+      "category": "badge",
+      "shape": "freeform",
+      "path": "assets/badge_evidence.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "evidence",
+        "verification"
+      ],
+      "allowed_roles": [
+        "evidence",
+        "verification"
+      ],
+      "aspect_ratio": 0.7246,
+      "native_pixel_size": [
+        100,
+        138
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 3,
+        "max_width": 6,
+        "min_height": 3,
+        "max_height": 6
+      },
+      "matching_distance": 0.003632,
+      "source_fragment_ids": [
+        "asset_001"
+      ]
+    },
+    {
+      "asset_id": "badge_warning",
+      "category": "badge",
+      "shape": "freeform",
+      "path": "assets/badge_warning.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "warning",
+        "risk"
+      ],
+      "allowed_roles": [
+        "warning",
+        "misconception"
+      ],
+      "aspect_ratio": 1.0614,
+      "native_pixel_size": [
+        121,
+        114
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 3,
+        "max_width": 6,
+        "min_height": 3,
+        "max_height": 6
+      },
+      "matching_distance": 0.001963,
+      "source_fragment_ids": [
+        "asset_004"
+      ]
+    },
+    {
+      "asset_id": "badge_milestone",
+      "category": "badge",
+      "shape": "freeform",
+      "path": "assets/badge_milestone.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "milestone",
+        "progress"
+      ],
+      "allowed_roles": [
+        "milestone",
+        "emphasis"
+      ],
+      "aspect_ratio": 1.0,
+      "native_pixel_size": [
+        134,
+        134
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 3,
+        "max_width": 6,
+        "min_height": 3,
+        "max_height": 6
+      },
+      "matching_distance": 0.019054,
+      "source_fragment_ids": [
+        "asset_006"
+      ]
+    },
+    {
+      "asset_id": "badge_category",
+      "category": "badge",
+      "shape": "freeform",
+      "path": "assets/badge_category.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "category",
+        "section"
+      ],
+      "allowed_roles": [
+        "category",
+        "section_marker"
+      ],
+      "aspect_ratio": 0.8583,
+      "native_pixel_size": [
+        109,
+        127
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 3,
+        "max_width": 6,
+        "min_height": 3,
+        "max_height": 6
+      },
+      "matching_distance": 0.014378,
+      "source_fragment_ids": [
+        "asset_008"
+      ]
+    },
+    {
+      "asset_id": "badge_takeaway",
+      "category": "badge",
+      "shape": "freeform",
+      "path": "assets/badge_takeaway.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "takeaway",
+        "key_point"
+      ],
+      "allowed_roles": [
+        "emphasis",
+        "takeaway"
+      ],
+      "aspect_ratio": 0.9219,
+      "native_pixel_size": [
+        118,
+        128
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 3,
+        "max_width": 6,
+        "min_height": 3,
+        "max_height": 6
+      },
+      "matching_distance": 0.018072,
+      "source_fragment_ids": [
+        "asset_007"
+      ]
+    },
+    {
+      "asset_id": "icon_concept",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_concept.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "concept",
+        "idea"
+      ],
+      "allowed_roles": [
+        "concept",
+        "annotation"
+      ],
+      "aspect_ratio": 1.0469,
+      "native_pixel_size": [
+        134,
+        128
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.029038,
+      "source_fragment_ids": [
+        "asset_013"
+      ]
+    },
+    {
+      "asset_id": "icon_process",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_process.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "process",
+        "transition"
+      ],
+      "allowed_roles": [
+        "process",
+        "annotation"
+      ],
+      "aspect_ratio": 0.947,
+      "native_pixel_size": [
+        125,
+        132
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.025375,
+      "source_fragment_ids": [
+        "asset_012"
+      ]
+    },
+    {
+      "asset_id": "icon_evidence",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_evidence.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "evidence",
+        "measurement"
+      ],
+      "allowed_roles": [
+        "evidence",
+        "annotation"
+      ],
+      "aspect_ratio": 1.0082,
+      "native_pixel_size": [
+        123,
+        122
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.024011,
+      "source_fragment_ids": [
+        "asset_014"
+      ]
+    },
+    {
+      "asset_id": "icon_relationship",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_relationship.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "relationship",
+        "comparison"
+      ],
+      "allowed_roles": [
+        "relationship",
+        "annotation"
+      ],
+      "aspect_ratio": 1.1565,
+      "native_pixel_size": [
+        133,
+        115
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.045073,
+      "source_fragment_ids": [
+        "asset_017"
+      ]
+    },
+    {
+      "asset_id": "icon_warning",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_warning.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "warning",
+        "constraint"
+      ],
+      "allowed_roles": [
+        "warning",
+        "annotation"
+      ],
+      "aspect_ratio": 1.0702,
+      "native_pixel_size": [
+        122,
+        114
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.042799,
+      "source_fragment_ids": [
+        "asset_019"
+      ]
+    },
+    {
+      "asset_id": "icon_takeaway",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_takeaway.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "takeaway",
+        "action"
+      ],
+      "allowed_roles": [
+        "takeaway",
+        "annotation"
+      ],
+      "aspect_ratio": 1.1171,
+      "native_pixel_size": [
+        124,
+        111
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.03982,
+      "source_fragment_ids": [
+        "asset_020"
+      ]
+    },
+    {
+      "asset_id": "icon_model",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_model.png",
+      "available": false,
+      "quality_status": "misaligned_slot",
+      "semantic_tags": [
+        "model",
+        "simulation"
+      ],
+      "allowed_roles": [
+        "model",
+        "annotation"
+      ],
+      "aspect_ratio": 0.8613,
+      "native_pixel_size": [
+        118,
+        137
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.051263,
+      "source_fragment_ids": [
+        "asset_023"
+      ]
+    },
+    {
+      "asset_id": "icon_environment",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_environment.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "environment",
+        "system"
+      ],
+      "allowed_roles": [
+        "environment",
+        "annotation"
+      ],
+      "aspect_ratio": 1.0078,
+      "native_pixel_size": [
+        130,
+        129
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.047195,
+      "source_fragment_ids": [
+        "asset_024"
+      ]
+    },
+    {
+      "asset_id": "icon_planning",
+      "category": "icon",
+      "shape": "freeform",
+      "path": "assets/icon_planning.png",
+      "available": true,
+      "quality_status": "matched",
+      "semantic_tags": [
+        "planning",
+        "decision"
+      ],
+      "allowed_roles": [
+        "planning",
+        "annotation"
+      ],
+      "aspect_ratio": 0.9587,
+      "native_pixel_size": [
+        116,
+        121
+      ],
+      "visual_weight": "low",
+      "scalable": true,
+      "preferred_size": {
+        "min_width": 2,
+        "max_width": 5,
+        "min_height": 2,
+        "max_height": 5
+      },
+      "matching_distance": 0.048102,
+      "source_fragment_ids": [
+        "asset_025"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "scope": "Offline public configuration; mock API and mock diffusion; actual PPTX/LibreOffice PDF export",
+  "model_calls": 0,
+  "runs": [
+    {
+      "run": "outputs/smoke_text",
+      "status": "succeeded",
+      "quality_status": "strict_pass",
+      "assembly_quality_status": "strict_pass",
+      "slides": 3,
+      "native_text_run_counts": [
+        2,
+        2,
+        2
+      ],
+      "pptx_exists": true,
+      "pdf_exists": true,
+      "warnings": []
+    },
+    {
+      "run": "outputs/smoke_topology",
+      "status": "succeeded",
+      "quality_status": "degraded",
+      "assembly_quality_status": "degraded",
+      "slides": 3,
+      "native_text_run_counts": [
+        2,
+        2,
+        2
+      ],
+      "pptx_exists": true,
+      "pdf_exists": true,
+      "warnings": [
+        {
+          "slide_id": "slide_001",
+          "geometry_findings": [
+            {
+              "kind": "unresolved_fit",
+              "region_id": "b_semantic_overview"
+            }
+          ]
+        },
+        {
+          "slide_id": "slide_002",
+          "geometry_findings": [
+            {
+              "kind": "unresolved_fit",
+              "region_id": "b_semantic_overview"
+            }
+          ]
+        },
+        {
+          "render_quality": [
+            {
+              "slide_id": "slide_001",
+              "region_id": "b_semantic_overview",
+              "issues": [
+                "rendered_text_outside_region"
+              ]
+            },
+            {
+              "slide_id": "slide_002",
+              "region_id": "b_semantic_overview",
+              "issues": [
+                "rendered_text_outside_region"
+              ]
+            }
+          ]
+        },
+        {
+          "unresolved_text_overflow": {
+            "slide_001": [
+              "b_semantic_overview"
+            ],
+            "slide_002": [
+              "b_semantic_overview"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "run": "outputs/topology_rich_mock",
+      "status": "succeeded",
+      "quality_status": "degraded",
+      "assembly_quality_status": "strict_pass",
+      "slides": 2,
+      "native_text_run_counts": [
+        2,
+        2
+      ],
+      "pptx_exists": true,
+      "pdf_exists": true,
+      "warnings": []
+    }
+  ],
+  "portability": {
+    "topology_status": "succeeded",
+    "text_status": "succeeded",
+    "topology_fixture_tests_exit_code": 0,
+    "dependencies": "Uses the installed Node dependencies and bundled fixture assets."
+  }
+}

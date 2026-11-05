@@ -1,0 +1,11 @@
+name: rl4ppt-final
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - nodejs=22
+  - poppler
+  - pip:
+      - -r requirements.txt

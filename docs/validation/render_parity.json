@@ -1,0 +1,43 @@
+{
+  "status": "equivalent",
+  "environment": "rl4ppt-final",
+  "model_calls": 0,
+  "scope": "Fixed accepted plans and assets rendered by both reference and current compilers.",
+  "limitations": [
+    "This verifies deterministic rendering equivalence, not a new model generation.",
+    "Existing visual defects and overflow are preserved; equivalence is not a quality pass.",
+    "PPTX ZIP timestamps and document metadata are excluded; every slide XML part is compared.",
+    "Pixel equality requires both renders to use the same fonts, LibreOffice and Poppler installation."
+  ],
+  "routes": [
+    {
+      "route": "text-first",
+      "status": "equivalent",
+      "slide_count": 5,
+      "native_text_objects": 28,
+      "slide_xml_identical": 5,
+      "pixel_identical_pages": 5,
+      "native_text_fonts_geometry_identical": true,
+      "text_fit_report_identical": true,
+      "preserved_overflow_regions": []
+    },
+    {
+      "route": "topology-first",
+      "status": "equivalent",
+      "slide_count": 5,
+      "native_text_objects": 20,
+      "slide_xml_identical": 5,
+      "pixel_identical_pages": 5,
+      "native_text_fonts_geometry_identical": true,
+      "text_fit_report_identical": true,
+      "preserved_overflow_regions": [
+        {
+          "slide_id": "slide_002",
+          "region_ids": [
+            "b_intro"
+          ]
+        }
+      ]
+    }
+  ]
+}

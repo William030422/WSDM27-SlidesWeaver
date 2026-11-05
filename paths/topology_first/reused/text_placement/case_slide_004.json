@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "slide_id": "slide_004",
+  "background_path": "../../tests/fixtures/text_placement/background.png",
+  "topology_path": "../../tests/fixtures/text_placement/topology.json",
+  "layout_path": "../../tests/fixtures/text_placement/layout.json",
+  "asset_manifest_path": "../../tests/fixtures/text_placement/asset_manifest.json",
+  "mode_policy": {
+    "color_complexity_threshold": 5.5,
+    "luminance_std_threshold": 9.0,
+    "native_shape_opacity": 0.90,
+    "entropy_bins": 0
+  },
+  "font_roles": {
+    "title": {"face": "DejaVu Sans", "size_pt": 34, "minimum_pt": 26, "maximum_pt": 42, "weight": "bold"},
+    "subtitle": {"face": "DejaVu Sans", "size_pt": 22, "minimum_pt": 18, "maximum_pt": 28, "weight": "regular"},
+    "body": {"face": "DejaVu Sans", "size_pt": 18, "minimum_pt": 18, "maximum_pt": 24, "weight": "regular"},
+    "caption": {"face": "DejaVu Sans", "size_pt": 18, "minimum_pt": 14, "maximum_pt": 20, "weight": "semibold"}
+  },
+  "content": [
+    {
+      "content_id": "content_title",
+      "role": "title",
+      "text": "From Sensing to Grid Action",
+      "target_region_id": "title_001",
+      "order": 0
+    },
+    {
+      "content_id": "content_support",
+      "role": "subtitle",
+      "text": "A renewable grid closes the loop: sense current conditions, forecast what comes next, then coordinate dispatch.",
+      "target_component_id": "c_supporting_text",
+      "order": 1
+    },
+    {
+      "content_id": "content_sense",
+      "role": "caption",
+      "text": "Sense live grid conditions",
+      "target_component_id": "c_stage_1",
+      "order": 2
+    },
+    {
+      "content_id": "content_forecast",
+      "role": "caption",
+      "text": "Forecast supply and demand",
+      "target_component_id": "c_stage_2",
+      "order": 3
+    },
+    {
+      "content_id": "content_dispatch",
+      "role": "caption",
+      "text": "Coordinate renewable dispatch",
+      "target_component_id": "c_stage_3",
+      "order": 4
+    }
+  ]
+}

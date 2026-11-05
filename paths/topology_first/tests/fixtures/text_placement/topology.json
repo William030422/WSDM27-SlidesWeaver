@@ -1,0 +1,372 @@
+{
+  "schema_version": "4.0",
+  "slide_id": "slide_004",
+  "canvas_width": 64,
+  "canvas_height": 36,
+  "global_topology": {
+    "composition_family": "sequence",
+    "layout_formula": "column(header:title+supporting_text, sequential_row(stage_1, stage_2, stage_3))",
+    "reading_direction": "left-to-right, top-to-bottom",
+    "confidence": 0.95
+  },
+  "layout_tree": {
+    "node_id": "root",
+    "node_type": "group",
+    "arrangement": "column",
+    "children": [
+      "g_header",
+      "g_sequence"
+    ]
+  },
+  "groups": [
+    {
+      "group_id": "g_header",
+      "role": "header_band",
+      "scope": "top_level",
+      "arrangement": "column",
+      "children": [
+        "c_title",
+        "c_supporting_text"
+      ],
+      "peer_relation": "none",
+      "reading_direction": "top-to-bottom",
+      "calibration_policy": {
+        "size_policy": "preserve",
+        "alignment": "preserve",
+        "spacing": "even",
+        "emphasis": "none",
+        "rationale": "The heading and supporting text occupy distinct upper horizontal bands and retain their broad left alignment."
+      },
+      "confidence": 0.97
+    },
+    {
+      "group_id": "g_sequence",
+      "role": "three_stage_process",
+      "scope": "top_level",
+      "arrangement": "row",
+      "children": [
+        "c_stage_1",
+        "c_stage_2",
+        "c_stage_3"
+      ],
+      "peer_relation": "sequential",
+      "reading_direction": "left-to-right",
+      "calibration_policy": {
+        "size_policy": "equal_size",
+        "alignment": "top",
+        "spacing": "even",
+        "emphasis": "last",
+        "rationale": "Three visual-caption units are connected in a left-to-right progression. Visual anchors are normalized to equal stage dimensions, captions are aligned below them, and stage centers and gaps are regularized. The final stage retains emphasis through its distinct visual content rather than an enlarged container."
+      },
+      "confidence": 0.94
+    }
+  ],
+  "components": [
+    {
+      "component_id": "c_title",
+      "component_role": "title",
+      "source_region_ids": [
+        "title_001"
+      ],
+      "local_pattern": "single wide heading band",
+      "importance": "dominant",
+      "confidence": 0.98
+    },
+    {
+      "component_id": "c_supporting_text",
+      "component_role": "supporting_text",
+      "source_region_ids": [
+        "text_001"
+      ],
+      "local_pattern": "left-aligned multiline support text beneath title",
+      "importance": "secondary",
+      "confidence": 0.96
+    },
+    {
+      "component_id": "c_stage_1",
+      "component_role": "composite_diagram",
+      "source_region_ids": [
+        "visual_001",
+        "caption_001"
+      ],
+      "local_pattern": "visual anchor with directly attached caption below",
+      "importance": "primary",
+      "confidence": 0.93
+    },
+    {
+      "component_id": "c_stage_2",
+      "component_role": "composite_diagram",
+      "source_region_ids": [
+        "visual_002",
+        "caption_002"
+      ],
+      "local_pattern": "visual anchor with directly attached caption below",
+      "importance": "primary",
+      "confidence": 0.92
+    },
+    {
+      "component_id": "c_stage_3",
+      "component_role": "composite_diagram",
+      "source_region_ids": [
+        "visual_003",
+        "caption_003"
+      ],
+      "local_pattern": "visual anchor with directly attached caption below",
+      "importance": "primary",
+      "confidence": 0.95
+    }
+  ],
+  "entities": [
+    {
+      "region_id": "title_001",
+      "detector_role": "title",
+      "canonical_role": "title",
+      "parent_component_id": "c_title",
+      "calibrated_bbox": [
+        5,
+        4,
+        53,
+        3
+      ],
+      "calibration_actions": [
+        "preserved wide heading span",
+        "retained upper-band position",
+        "aligned to header left edge"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "region_id": "text_001",
+      "detector_role": "standalone_text",
+      "canonical_role": "supporting_text",
+      "parent_component_id": "c_supporting_text",
+      "calibrated_bbox": [
+        5,
+        8,
+        45,
+        4
+      ],
+      "calibration_actions": [
+        "preserved supporting-text band",
+        "retained left alignment with title",
+        "maintained separation from sequence row"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "region_id": "visual_001",
+      "detector_role": "visual",
+      "canonical_role": "visual",
+      "parent_component_id": "c_stage_1",
+      "calibrated_bbox": [
+        6,
+        18,
+        12,
+        10
+      ],
+      "calibration_actions": [
+        "normalized to repeated stage visual size",
+        "aligned top edge with peer visuals",
+        "centered over attached caption"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "region_id": "caption_001",
+      "detector_role": "caption",
+      "canonical_role": "caption",
+      "parent_component_id": "c_stage_1",
+      "calibrated_bbox": [
+        4,
+        29,
+        16,
+        3
+      ],
+      "calibration_actions": [
+        "normalized caption height",
+        "aligned caption baseline with peers",
+        "centered beneath stage visual"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "region_id": "visual_002",
+      "detector_role": "visual",
+      "canonical_role": "visual",
+      "parent_component_id": "c_stage_2",
+      "calibrated_bbox": [
+        26,
+        18,
+        12,
+        10
+      ],
+      "calibration_actions": [
+        "normalized to repeated stage visual size",
+        "aligned top edge with peer visuals",
+        "centered over attached caption"
+      ],
+      "confidence": 0.91
+    },
+    {
+      "region_id": "caption_002",
+      "detector_role": "caption",
+      "canonical_role": "caption",
+      "parent_component_id": "c_stage_2",
+      "calibrated_bbox": [
+        24,
+        29,
+        16,
+        3
+      ],
+      "calibration_actions": [
+        "equalized caption width and height",
+        "aligned caption baseline with peers",
+        "centered beneath stage visual"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "region_id": "visual_003",
+      "detector_role": "visual",
+      "canonical_role": "visual",
+      "parent_component_id": "c_stage_3",
+      "calibrated_bbox": [
+        46,
+        18,
+        12,
+        10
+      ],
+      "calibration_actions": [
+        "normalized oversized endpoint container to peer size",
+        "aligned top edge with peer visuals",
+        "centered over attached caption",
+        "preserved final-stage emphasis through sequence position"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "region_id": "caption_003",
+      "detector_role": "caption",
+      "canonical_role": "caption",
+      "parent_component_id": "c_stage_3",
+      "calibrated_bbox": [
+        44,
+        29,
+        16,
+        3
+      ],
+      "calibration_actions": [
+        "equalized caption width and height",
+        "aligned caption baseline with peers",
+        "centered beneath stage visual"
+      ],
+      "confidence": 0.89
+    }
+  ],
+  "relations": [
+    {
+      "source_id": "visual_001",
+      "target_id": "caption_001",
+      "relation": "paired_with",
+      "evidence": [
+        "caption is directly below first visual",
+        "shared horizontal center after calibration"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source_id": "visual_002",
+      "target_id": "caption_002",
+      "relation": "paired_with",
+      "evidence": [
+        "caption is directly below second visual",
+        "shared horizontal center after calibration"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source_id": "visual_003",
+      "target_id": "caption_003",
+      "relation": "paired_with",
+      "evidence": [
+        "caption is directly below third visual",
+        "shared horizontal center after calibration"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "source_id": "c_stage_1",
+      "target_id": "c_stage_2",
+      "relation": "sequence_next",
+      "evidence": [
+        "left-to-right placement",
+        "visible rightward connector between stage areas"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "source_id": "c_stage_2",
+      "target_id": "c_stage_3",
+      "relation": "sequence_next",
+      "evidence": [
+        "left-to-right placement",
+        "visible rightward connector between stage areas"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "source_id": "g_sequence",
+      "target_id": "c_stage_1",
+      "relation": "contains",
+      "evidence": [
+        "first repeated stage unit in lower process row"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source_id": "g_sequence",
+      "target_id": "c_stage_2",
+      "relation": "contains",
+      "evidence": [
+        "second repeated stage unit in lower process row"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "source_id": "g_sequence",
+      "target_id": "c_stage_3",
+      "relation": "contains",
+      "evidence": [
+        "third repeated stage unit in lower process row"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "reading_order": [
+    "title_001",
+    "text_001",
+    "c_stage_1",
+    "c_stage_2",
+    "c_stage_3"
+  ],
+  "calibration_summary": {
+    "strategy": "Retain the two-band header and regularize the lower connected process into three equal visual-caption stage units.",
+    "rules_applied": [
+      "preserved title and supporting text as separate stacked components",
+      "treated connectors as sequence evidence rather than entities",
+      "normalized repeated visual-anchor dimensions",
+      "aligned repeated visual top edges",
+      "aligned repeated caption baselines",
+      "equalized caption widths and heights",
+      "regularized stage centers and horizontal spacing",
+      "kept captions directly attached to their respective visuals"
+    ],
+    "confidence": 0.94
+  },
+  "ambiguities": [
+    {
+      "issue": "The final visual was observed substantially larger than the first two visuals.",
+      "resolution": "Interpreted size drift as diffusion noise because sequence position and distinct visual appearance establish endpoint emphasis without requiring a larger container."
+    }
+  ]
+}
